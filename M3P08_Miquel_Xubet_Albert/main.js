@@ -2,8 +2,8 @@ let datoUsuario;
 let resultado;
 
 while (true) {
-  datoUsuario = parseInt(prompt("Introduzca un número entre 1 y 10:"));
-  if (datoUsuario <= 10 && datoUsuario >= 1) {
+  datoUsuario = parseInt(prompt("Introduzca un número entre 0 y 10:"));
+  if (datoUsuario <= 10 && datoUsuario >= 0) {
     const factorial = (datoUsuario) => {
       let total = 1;
       for (let i = 1; i <= datoUsuario; i++) {
@@ -14,7 +14,7 @@ while (true) {
     resultado = factorial(datoUsuario);
     break;
   } else {
-    alert("Valor incorrecto. Introduzca un número entre 1 y 10");
+    alert("Valor incorrecto. Introduzca un número entre 0 y 10");
   }
 }
 
