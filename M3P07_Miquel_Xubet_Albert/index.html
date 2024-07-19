@@ -5,5 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>CASINO JAVASCRIPT</h1>
+    <div>
+      <h2>Haz tu apuesta</h2>
+      <p>Número Apostado: <span id="numeroApostado"></span></p>
+      <p>Monedas Apostadas: <span id="monedasApostadas"></span></p>
+      <button type="button" id="apostarNumerosButton" onclick="apuesta()">
+        Jugar
+      </button>
+    </div>
+    <div>
+      <h2>Resultado</h2>
+      <p>Número Premiado: <span id="numeroGanador"></span></p>
+      <p>Resultado de la Apuesta: <span id="resultadoApuesta"></span></p>
+      <button
+        type="button"
+        id="apostarMonedasButton"
+        onclick="resultadoApuesta()"
+      >
+        Juega
+      </button>
+    </div>
+    <div>
+      <h2>Tus monedas</h2>
+      <p>Monedas Ganadas: <span id="monedasGanadas"></span></p>
+      <p>Monedas Perdidas: <span id="monedasPerdidas"></span></p>
+      <p>Tu estoc actual: <span id="stockActual"></span></p>
+    </div>
+    <p>Los números premiados han sido: <span id="listadoNumeros"></span></p>
+    <script src="main.js"></script>
+  </body>
 </html>
