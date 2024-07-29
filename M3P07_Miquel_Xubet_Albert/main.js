@@ -44,7 +44,7 @@ const resultadoApuesta = () => {
   if (numeroPremiado === numeroApostado) {
     alert("Has Ganado!");
     document.getElementById("resultadoApuesta").textContent = "HAS GANADO!";
-    monedasGanadas = monedasApostadas * 2;
+    monedasGanadas = monedasApostadas;
     stockMonedas += monedasGanadas;
   } else {
     alert("Has Perdido!");
